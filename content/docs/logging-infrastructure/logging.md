@@ -15,7 +15,7 @@ You can customize the following sections of the logging resource:
 
 - Generic parameters of the logging resource. For the list of available parameters, see {{% xref "/docs/configuration/crds/v1beta1/logging_types.md" %}}.
 - The `fluentd` statefulset that Logging operator deploys. For a list of parameters, see {{% xref "/docs/configuration/crds/v1beta1/fluentd_types.md" %}}. For examples on customizing the Fluentd configuration, see {{% xref "/docs/logging-infrastructure/fluentd.md" %}}.
-- The `syslogNG` statefulset that Logging operator deploys. For a list of parameters, see {{% xref "/docs/configuration/crds/v1beta1/syslogng_types.md" %}}. For examples on customizing the Fluentd configuration, see {{% xref "/docs/logging-infrastructure/syslog-ng.md" %}}.
+- The `syslogNG` statefulset that Logging operator deploys. For a list of parameters, see {{% xref "/docs/configuration/crds/v1beta1/syslogng_types.md" %}}. For examples on customizing the syslog-ng configuration, see {{% xref "/docs/logging-infrastructure/syslog-ng.md" %}}.
 - The `fluentbit` field is deprecated. Fluent Bit should now be configured separately, see {{% xref "/docs/logging-infrastructure/fluentbit.md" %}}.
 
 The following example snippets use the **logging** namespace. To create this namespace if it does not already exist, run:
